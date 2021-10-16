@@ -1,0 +1,43 @@
+{
+  "name": "@hornta/random",
+  "version": "1.0.1",
+  "description": "Pseudo random number generator which can be seeded and restarted from a random state.",
+  "source": "./src/random.ts",
+  "module": "./dist/random.js",
+  "main": "./dist/random.cjs",
+  "types": "./dist/random.d.ts",
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/jest": "^27.0.2",
+    "babel-jest": "^27.2.5",
+    "jest": "^27.2.5",
+    "microbundle": "^0.14.1",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "build": "microbundle",
+    "test": "jest"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "random",
+    "prng",
+    "number-generator"
+  ],
+  "author": "hornta",
+  "license": "ISC",
+  "repository": {
+    "directory": "packages/random",
+    "type": "git",
+    "url": "https://github.com/hornta/random.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hornta/random/issues"
+  }
+}
