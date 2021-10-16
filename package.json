@@ -33,7 +33,6 @@
   "author": "hornta",
   "license": "ISC",
   "repository": {
-    "directory": "packages/random",
     "type": "git",
     "url": "https://github.com/hornta/random.git"
   },
